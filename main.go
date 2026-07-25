@@ -31,4 +31,7 @@ func main() {
 
 	// println("\n===== This Is Slice =====")
 	// fundamental.Slice()
+
+	println("\n===== This Is Map =====")
+	fundamental.Map()
 }
