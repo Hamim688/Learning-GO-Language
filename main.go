@@ -35,6 +35,6 @@ func main() {
 	// println("\n===== This Is Map =====")
 	// fundamental.Map()
 
-	println("\n===== This Is If Else =====")
-	fundamental.IfElse()
+	// println("\n===== This Is If Else =====")
+	// fundamental.IfElse()
 }
