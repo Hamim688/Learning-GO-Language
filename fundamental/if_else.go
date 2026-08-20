@@ -3,6 +3,7 @@ package fundamental
 import "fmt"
 
 func IfElse() {
+
 	//! 1. if Expression
 	fmt.Println("\n===== 1. If Expression =====")
 	name := "Jang Won-Young"
@@ -30,7 +31,7 @@ func IfElse() {
 	lenght := len(name)
 	if lenght > 10 {
 		fmt.Println("Panjang amat nama lu")
-	} else if lenght > 5{
+	} else if lenght > 5 {
 		fmt.Println("Agak Kepanjangan sihh")
 	} else {
 		fmt.Println("Nama lu Pendek")

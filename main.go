@@ -37,4 +37,16 @@ func main() {
 
 	// println("\n===== This Is If Else =====")
 	// fundamental.IfElse()
+
+	// println("\n===== This Is Switch Expression =====")
+	// fundamental.SwitchExpression()
+
+	// println("\n===== This Is For Loops =====")
+	// fundamental.ForLoops()
+
+	// println("\n===== This Is Function =====")
+	// fundamental.Function()
+
+	// println("\n===== This Is Closure =====")
+	// fundamental.Closure()
 }
