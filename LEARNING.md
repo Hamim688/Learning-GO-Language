@@ -35,6 +35,10 @@ Modul ini mencakup dasar-dasar sintaksis dan konsep inti bahasa Go.
 | **11** | For Loops, Init & Post, Range, Break & Continue | [11-for-loops.md](docs/fundamental/11-for-loops.md) | [for_loops.go](fundamental/for_loops.go) |
 | **12** | Function (Parameter, Multiple Return, Named Return, Variadic, Value, Filter, Type Declaration, Anonymous & Recursive Function) | [12-function.md](docs/fundamental/12-function.md) | [function.go](fundamental/function.go) |
 | **13** | Closure & Scope Mutation | [13-closure.md](docs/fundamental/13-closure.md) | [closure.go](fundamental/closure.go) |
+| **14** | Defer, Panic & Recover | [14-defer-panic-recover.md](docs/fundamental/14-defer-panic-recover.md) | [defer.go](fundamental/defer.go), [panic.go](fundamental/panic.go), [recover.go](fundamental/recover.go) |
+| **15** | Struct, Struct Literal & Struct Method | [15-struct.md](docs/fundamental/15-struct.md) | [struct.go](fundamental/struct.go) |
+| **16** | Interface & Implicit Implementation | [16-interface.md](docs/fundamental/16-interface.md) | [interface.go](fundamental/interface.go) |
+| **17** | Interface Kosong & Type Alias `any` | [17-interface-kosong-any.md](docs/fundamental/17-interface-kosong-any.md) | [any.go](fundamental/any.go) |
 
 ---
 

@@ -21,6 +21,10 @@ Di modul ini, kita membahas konsep-konsep paling dasar dari bahasa pemrograman G
 11. 🔄 [11. For Loops (Range, Break & Continue)](11-for-loops.md)
 12. 🛠️ [12. Function (Parameter, Return, Multiple, Named, Variadic, Value, Filter, Type Declaration, Anonymous & Recursive Function)](12-function.md)
 13. 🔒 [13. Closure](13-closure.md)
+14. 🛡️ [14. Defer, Panic & Recover](14-defer-panic-recover.md)
+15. 🏗️ [15. Struct & Struct Method](15-struct.md)
+16. 🔌 [16. Interface & Implementasi Interface](16-interface.md)
+17. 🗂️ [17. Interface Kosong (any)](17-interface-kosong-any.md)
 
 ---
 

@@ -49,4 +49,23 @@ func main() {
 
 	// println("\n===== This Is Closure =====")
 	// fundamental.Closure()
+
+	// println("\n===== This Is Defer =====")
+	// fundamental.DeferFunction()
+
+	// println("\n===== This Is Panic =====")
+	// fundamental.PanicFunction()
+
+	// println("\n===== This Is Recover =====")
+	// fundamental.RecoverFunction()
+
+	// println("\n===== This Is Struct =====")
+	// WonYoung := fundamental.Struct()
+	// WonYoung.SayHello("Sayangku")
+
+	// println("\n===== This Is Interface =====")
+	// fundamental.Interface()
+
+	println("\n===== This Is Any =====")
+	fundamental.AnyFunction()
 }

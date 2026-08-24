@@ -16,4 +16,4 @@
 
 ---
 
-[⬅️ Sebelumnya: Function](12-function.md) | [🏠 Hub Utama](../../LEARNING.md)
+[⬅️ Sebelumnya: Function](12-function.md) | [🏠 Hub Utama](../../LEARNING.md) | [Selanjutnya: Defer, Panic & Recover ➡️](14-defer-panic-recover.md)
