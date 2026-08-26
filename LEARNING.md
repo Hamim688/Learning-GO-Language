@@ -39,6 +39,9 @@ Modul ini mencakup dasar-dasar sintaksis dan konsep inti bahasa Go.
 | **15** | Struct, Struct Literal & Struct Method | [15-struct.md](docs/fundamental/15-struct.md) | [struct.go](fundamental/struct.go) |
 | **16** | Interface & Implicit Implementation | [16-interface.md](docs/fundamental/16-interface.md) | [interface.go](fundamental/interface.go) |
 | **17** | Interface Kosong & Type Alias `any` | [17-interface-kosong-any.md](docs/fundamental/17-interface-kosong-any.md) | [any.go](fundamental/any.go) |
+| **18** | Nil & Default Values | [18-nil.md](docs/fundamental/18-nil.md) | [nil.go](fundamental/nil.go) |
+| **19** | Type Assertions & Type Switch | [19-type-assertions.md](docs/fundamental/19-type-assertions.md) | [type_assertions.go](fundamental/type_assertions.go) |
+| **20** | Pointer & Pass by Reference | [20-pointer.md](docs/fundamental/20-pointer.md) | [pointer.go](fundamental/pointer.go) |
 
 ---
 

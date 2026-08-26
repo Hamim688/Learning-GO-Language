@@ -22,4 +22,4 @@
 
 ---
 
-[⬅️ Sebelumnya: Interface](16-interface.md) | [🏠 Hub Utama](../../LEARNING.md)
+[⬅️ Sebelumnya: Interface](16-interface.md) | [🏠 Hub Utama](../../LEARNING.md) | [Selanjutnya: Nil ➡️](18-nil.md)

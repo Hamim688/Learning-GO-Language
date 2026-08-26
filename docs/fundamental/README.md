@@ -25,6 +25,9 @@ Di modul ini, kita membahas konsep-konsep paling dasar dari bahasa pemrograman G
 15. 🏗️ [15. Struct & Struct Method](15-struct.md)
 16. 🔌 [16. Interface & Implementasi Interface](16-interface.md)
 17. 🗂️ [17. Interface Kosong (any)](17-interface-kosong-any.md)
+18. 🈳 [18. Nil (Data Kosong)](18-nil.md)
+19. 🔀 [19. Type Assertions & Type Switch](19-type-assertions.md)
+20. 📍 [20. Pointer & Pass by Reference](20-pointer.md)
 
 ---
 

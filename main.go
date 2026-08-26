@@ -66,6 +66,15 @@ func main() {
 	// println("\n===== This Is Interface =====")
 	// fundamental.Interface()
 
-	println("\n===== This Is Any =====")
-	fundamental.AnyFunction()
+	// println("\n===== This Is Any =====")
+	// fundamental.AnyFunction()
+
+	// println("\n===== This Is Nil =====")
+	// fundamental.NilFunction()
+
+	// println("\n===== This Is Type Assertions =====")
+	// fundamental.TypeAssertions()
+
+	println("\n===== This Is Pointer =====")
+	fundamental.Pointer()
 }
