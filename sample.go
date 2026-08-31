@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+// import "fmt"
 
-func main() {
-	fmt.Println("Multiple Main Function")
-}
+// func main() {
+// 	fmt.Println("Multiple Main Function")
+// }

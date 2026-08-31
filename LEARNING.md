@@ -42,6 +42,14 @@ Modul ini mencakup dasar-dasar sintaksis dan konsep inti bahasa Go.
 | **18** | Nil & Default Values | [18-nil.md](docs/fundamental/18-nil.md) | [nil.go](fundamental/nil.go) |
 | **19** | Type Assertions & Type Switch | [19-type-assertions.md](docs/fundamental/19-type-assertions.md) | [type_assertions.go](fundamental/type_assertions.go) |
 | **20** | Pointer & Pass by Reference | [20-pointer.md](docs/fundamental/20-pointer.md) | [pointer.go](fundamental/pointer.go) |
+| **21** | Operator Asterisk (`*`) & Dereferencing | [21-operator-asterisk.md](docs/fundamental/21-operator-asterisk.md) | [asterisk.go](fundamental/asterisk.go) |
+| **22** | Operator `new` (Pointer Kosong) | [22-operator-new.md](docs/fundamental/22-operator-new.md) | [new.go](fundamental/new.go) |
+| **23** | Pointer di Function (Pass by Reference Parameter) | [23-pointer-di-function.md](docs/fundamental/23-pointer-di-function.md) | [pointer_functions.go](fundamental/pointer_functions.go) |
+| **24** | Pointer di Method (Pointer Receiver) | [24-pointer-di-method.md](docs/fundamental/24-pointer-di-method.md) | [pointer_method.go](fundamental/pointer_method.go) |
+| **25** | Access Modifier (Exported vs Unexported) | [25-access-modifier.md](docs/fundamental/25-access-modifier.md) | [helper.go](fundamental/access_modifier/helper.go) |
+| **26** | Package Initialization (`init()`) & Blank Identifier (`_`) | [26-package-initialization-dan-blank-identifier.md](docs/fundamental/26-package-initialization-dan-blank-identifier.md) | [database.go](fundamental/initialization/database.go), [internal.go](fundamental/blank_identifier/internal.go) |
+| **27** | Error Interface & Package `errors` | [27-error-interface.md](docs/fundamental/27-error-interface.md) | [error.go](fundamental/error.go) |
+| **28** | Custom Error Struct & Error Type Assertions | [28-custom-error.md](docs/fundamental/28-custom-error.md) | [custom_error.go](fundamental/custom_error.go) |
 
 ---
 

@@ -58,4 +58,4 @@
 
 ---
 
-[⬅️ Sebelumnya: Type Assertions](19-type-assertions.md) | [🏠 Hub Utama](../../LEARNING.md) | [📘 Daftar Isi Fundamental](README.md)
+[⬅️ Sebelumnya: Type Assertions](19-type-assertions.md) | [🏠 Hub Utama](../../LEARNING.md) | [Selanjutnya: Operator Asterisk ➡️](21-operator-asterisk.md)

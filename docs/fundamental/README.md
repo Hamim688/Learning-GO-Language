@@ -28,6 +28,14 @@ Di modul ini, kita membahas konsep-konsep paling dasar dari bahasa pemrograman G
 18. 🈳 [18. Nil (Data Kosong)](18-nil.md)
 19. 🔀 [19. Type Assertions & Type Switch](19-type-assertions.md)
 20. 📍 [20. Pointer & Pass by Reference](20-pointer.md)
+21. ✳️ [21. Operator Asterisk (*)](21-operator-asterisk.md)
+22. 🆕 [22. Operator new](22-operator-new.md)
+23. 📍 [23. Pointer di Function](23-pointer-di-function.md)
+24. ⚙️ [24. Pointer di Method](24-pointer-di-method.md)
+25. 🔒 [25. Access Modifier](25-access-modifier.md)
+26. 🚀 [26. Package Initialization & Blank Identifier](26-package-initialization-dan-blank-identifier.md)
+27. ⚠️ [27. Error Interface & Membuat Error](27-error-interface.md)
+28. 🛠️ [28. Membuat Custom Error](28-custom-error.md)
 
 ---
 
