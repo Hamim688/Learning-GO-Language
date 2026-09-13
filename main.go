@@ -5,6 +5,7 @@ import (
 	"Belajar_Golang/fundamental/access_modifier"
 	_ "Belajar_Golang/fundamental/blank_identifier"
 	"Belajar_Golang/fundamental/initialization"
+	standardlibrary "Belajar_Golang/standard_library"
 	"bufio"
 	"fmt"
 	"os"
@@ -17,7 +18,44 @@ func main() {
 
 	for {
 		fmt.Println("\n=======================================================")
-		fmt.Println("       🚀 GOLANG FUNDAMENTAL LEARNING APP 🚀          ")
+		fmt.Println("       🚀 GOLANG LEARNING CONSOLE APPLICATION 🚀       ")
+		fmt.Println("=======================================================")
+		fmt.Println(" [1] Golang Fundamental")
+		fmt.Println(" [2] Golang Standard Library")
+		fmt.Println(" [0] Keluar Aplikasi")
+		fmt.Println("=======================================================")
+		fmt.Print("Pilih kategori materi [0-2]: ")
+
+		input, _ := reader.ReadString('\n')
+		input = strings.TrimSpace(input)
+		pilihan, err := strconv.Atoi(input)
+
+		if err != nil {
+			fmt.Println("❌ Error: Harap masukkan angka yang valid!")
+			continue
+		}
+
+		if pilihan == 0 {
+			fmt.Println("\nTerima kasih sudah belajar Golang bareng Kak Gem! Sampai jumpa! 👋✨")
+			break
+		}
+
+		switch pilihan {
+		case 1:
+			menuFundamental(reader)
+		case 2:
+			menuStandardLibrary(reader)
+		default:
+			fmt.Println("❌ Kategori tidak valid! Silakan pilih antara 0 - 2.")
+		}
+	}
+}
+
+// Sub-menu untuk Golang Fundamental
+func menuFundamental(reader *bufio.Reader) {
+	for {
+		fmt.Println("\n=======================================================")
+		fmt.Println("         📘 GOLANG FUNDAMENTAL LEARNING 📘             ")
 		fmt.Println("=======================================================")
 		fmt.Println(" 1. Hello World                 17. Recover Function")
 		fmt.Println(" 2. Data Type                   18. Struct & Struct Method")
@@ -35,9 +73,9 @@ func main() {
 		fmt.Println("14. Function (All Practice)     30. Error Functions")
 		fmt.Println("15. Closure                     31. Custom Error")
 		fmt.Println("16. Defer & Panic Function")
-		fmt.Println(" 0. Keluar Aplikasi")
+		fmt.Println(" 0. Kembali ke Menu Utama")
 		fmt.Println("=======================================================")
-		fmt.Print("Pilih nomor materi yang ingin dieksekusi [0-31]: ")
+		fmt.Print("Pilih nomor materi Fundamental [0-31]: ")
 
 		input, _ := reader.ReadString('\n')
 		input = strings.TrimSpace(input)
@@ -49,7 +87,6 @@ func main() {
 		}
 
 		if pilihan == 0 {
-			fmt.Println("\nTerima kasih sudah belajar Golang! Sampai jumpa! 👋✨")
 			break
 		}
 
@@ -157,7 +194,58 @@ func main() {
 		}
 		fmt.Println("-------------------------------------------------------")
 
-		fmt.Print("\nTekan ENTER untuk kembali ke menu utama...")
+		fmt.Print("\nTekan ENTER untuk kembali ke menu Fundamental...")
+		reader.ReadString('\n')
+	}
+}
+
+// Sub-menu untuk Golang Standard Library
+func menuStandardLibrary(reader *bufio.Reader) {
+	for {
+		fmt.Println("\n=======================================================")
+		fmt.Println("       📚 GOLANG STANDARD LIBRARY LEARNING 📚          ")
+		fmt.Println("=======================================================")
+		fmt.Println(" 1. Package fmt")
+		fmt.Println(" 2. Package errors")
+		fmt.Println(" 3. Package os")
+		fmt.Println(" 4. Package flag")
+		fmt.Println(" 0. Kembali ke Menu Utama")
+		fmt.Println("=======================================================")
+		fmt.Print("Pilih nomor materi Standard Library [0-4]: ")
+
+		input, _ := reader.ReadString('\n')
+		input = strings.TrimSpace(input)
+		pilihan, err := strconv.Atoi(input)
+
+		if err != nil {
+			fmt.Println("❌ Error: Harap masukkan angka yang valid!")
+			continue
+		}
+
+		if pilihan == 0 {
+			break
+		}
+
+		fmt.Printf("\n-------------------------------------------------------\n")
+		switch pilihan {
+		case 1:
+			fmt.Println("===== 1. Executing Package fmt =====")
+			standardlibrary.Fmt()
+		case 2:
+			fmt.Println("===== 2. Executing Package errors =====")
+			standardlibrary.ErrorFunctions()
+		case 3:
+			fmt.Println("===== 3. Executing Package os =====")
+			standardlibrary.OsFunction()
+		case 4:
+			fmt.Println("===== 4. Executing Package flag =====")
+			standardlibrary.FlagFunctions()
+		default:
+			fmt.Println("❌ Nomor materi tidak ditemukan!")
+		}
+		fmt.Println("-------------------------------------------------------")
+
+		fmt.Print("\nTekan ENTER untuk kembali ke menu Standard Library...")
 		reader.ReadString('\n')
 	}
 }

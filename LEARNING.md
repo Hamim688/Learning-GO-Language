@@ -53,5 +53,19 @@ Modul ini mencakup dasar-dasar sintaksis dan konsep inti bahasa Go.
 
 ---
 
+### 🔵 2. Golang Standard Library (`docs/standard_library/`)
+
+Modul ini mencakup pustaka bawaan (*standard library*) resmi Golang.
+
+| Bab | Topik | File Catatan | Source Code Terkait |
+| :---: | :--- | :--- | :--- |
+| **01** | Package `fmt` (Format I/O, Printf, Verb Format) | [01-fmt.md](docs/standard_library/01-fmt.md) | [fmt.go](standard_library/fmt.go) |
+| **02** | Package `errors` (Sentinel Error, `errors.Is()`) | [02-errors.md](docs/standard_library/02-errors.md) | [errors.go](standard_library/errors.go) |
+| **03** | Package `os` (CLI Args, Hostname, Platform Independent) | [03-os.md](docs/standard_library/03-os.md) | [os.go](standard_library/os.go) |
+| **04** | Package `flag` (Command Line Arguments Parsing) | [04-flag.md](docs/standard_library/04-flag.md) | [flag.go](standard_library/flag.go) |
+
+---
+
 > 💡 **Navigasi Cepat:**
-> Untuk melihat daftar isi modul Fundamental secara langsung, buka [docs/fundamental/README.md](docs/fundamental/README.md).
+> - Daftar isi modul Fundamental: [docs/fundamental/README.md](docs/fundamental/README.md)
+> - Daftar isi modul Standard Library: [docs/standard_library/README.md](docs/standard_library/README.md)
