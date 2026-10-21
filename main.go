@@ -209,9 +209,11 @@ func menuStandardLibrary(reader *bufio.Reader) {
 		fmt.Println(" 2. Package errors")
 		fmt.Println(" 3. Package os")
 		fmt.Println(" 4. Package flag")
+		fmt.Println(" 5. Package string")
+		fmt.Println(" 6. Package strconv")
 		fmt.Println(" 0. Kembali ke Menu Utama")
 		fmt.Println("=======================================================")
-		fmt.Print("Pilih nomor materi Standard Library [0-4]: ")
+		fmt.Print("Pilih nomor materi Standard Library [0-6]: ")
 
 		input, _ := reader.ReadString('\n')
 		input = strings.TrimSpace(input)
@@ -240,6 +242,12 @@ func menuStandardLibrary(reader *bufio.Reader) {
 		case 4:
 			fmt.Println("===== 4. Executing Package flag =====")
 			standardlibrary.FlagFunctions()
+		case 5:
+			fmt.Println("===== 5. Executing Package string =====")
+			standardlibrary.StringFunctions()
+		case 6:
+			fmt.Println("===== 6. Executing Package strconv =====")
+			standardlibrary.StrconvFunctions()
 		default:
 			fmt.Println("❌ Nomor materi tidak ditemukan!")
 		}

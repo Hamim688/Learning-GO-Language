@@ -85,4 +85,4 @@ go run main.go -help
 
 ---
 
-[⬅️ Sebelumnya: Package os](03-os.md) | [📚 Indeks Standard Library](README.md) | [🏠 Hub Utama](../../LEARNING.md)
+[⬅️ Sebelumnya: Package os](03-os.md) | [📚 Indeks Standard Library](README.md) | [🏠 Hub Utama](../../LEARNING.md) | [Selanjutnya: Package strings ➡️](05-strings.md)

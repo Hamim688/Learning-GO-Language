@@ -63,6 +63,8 @@ Modul ini mencakup pustaka bawaan (*standard library*) resmi Golang.
 | **02** | Package `errors` (Sentinel Error, `errors.Is()`) | [02-errors.md](docs/standard_library/02-errors.md) | [errors.go](standard_library/errors.go) |
 | **03** | Package `os` (CLI Args, Hostname, Platform Independent) | [03-os.md](docs/standard_library/03-os.md) | [os.go](standard_library/os.go) |
 | **04** | Package `flag` (Command Line Arguments Parsing) | [04-flag.md](docs/standard_library/04-flag.md) | [flag.go](standard_library/flag.go) |
+| **05** | Package `strings` (Manipulasi String & Utilitas Teks) | [05-strings.md](docs/standard_library/05-strings.md) | [string.go](standard_library/string.go) |
+| **06** | Package `strconv` (String Conversion: Parse & Format) | [06-strconv.md](docs/standard_library/06-strconv.md) | [strconv.go](standard_library/strconv.go) |
 
 ---
 

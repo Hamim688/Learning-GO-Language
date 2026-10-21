@@ -12,6 +12,8 @@ Di bagian ini, kita mempelajari pustaka bawaan (*standard library*) yang sudah d
 2. ⚠️ [02. Package errors](02-errors.md)
 3. 💻 [03. Package os](03-os.md)
 4. 🚩 [04. Package flag](04-flag.md)
+5. 🔤 [05. Package strings](05-strings.md)
+6. 🔄 [06. Package strconv](06-strconv.md)
 
 ---
 
